@@ -1,6 +1,9 @@
 # New Relic Private Minion
 
-This allows you to use New Relic Synthetics for for service that are not publically available for New Relic Synthetics to access.
+This allows you to use New Relic Synthetics for for service that are not publically available for New Relic Synthetics to access.  See New Relic for full [documentation](https://docs.newrelic.com/docs/synthetics/new-relic-synthetics/private-locations/install-containerized-private-minions-cpms)
+
+### Add Repo
+* helm repo add sstarcher https://shanestarcher.com/helm-charts/
 
 ### Setup
 * [Create a private location](https://docs.newrelic.com/docs/synthetics/new-relic-synthetics/private-locations/private-locations-overview-monitor-internal-sites-add-new-locations#create-location)
