@@ -5,7 +5,7 @@ replicaCount: 1
 
 image:
   repository: quay.io/newrelic/synthetics-minion
-  tag: "2.2.1"
+  tag: "2.2.21"
   pullPolicy: IfNotPresent
 
 nameOverride: ""
