@@ -26,6 +26,8 @@ jobs:
         path: helm-charts
 
     - run: ./helm-charts/add.sh
+      env:
+        GO111MODULE: on
 
     - uses: ad-m/github-push-action@master
       with:
